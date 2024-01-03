@@ -5,7 +5,7 @@ import useCountDown from './hooks/userCountDown'
 import './App.css'
 
 function App() {
-  const [day, hour, minute, second] = useCountDown('Jan 1, 2024 00:00:00')
+  const [day, hour, minute, second] = useCountDown('Jan 1, 2025 00:00:00')
   return (
     <div className="App" style={{backgroundImage:`url(${NewYear})`}}>
       <div className="container">
