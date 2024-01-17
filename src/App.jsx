@@ -1,11 +1,11 @@
 import Title from './componentes/Title'
 import NewYear from './assets/newYear.png'
-import Contagem from './componentes/contagem'
+import Contagem from './componentes/Contagem'
 import useCountDown from './hooks/userCountDown'
 import './App.css'
 
 function App() {
-  const [day, hour, minute, second] = useCountDown('Jan 1, 2024 00:00:00')
+  const [day, hour, minute, second] = useCountDown('Jan 1, 2025 00:00:00')
   return (
     <div className="App" style={{backgroundImage:`url(${NewYear})`}}>
       <div className="container">
